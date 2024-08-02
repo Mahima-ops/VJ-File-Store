@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "7422818820:AAF3z6HXfdtgqtonc0mBhjzkg6PHXOl
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5396391774').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
+BOT_USERNAME = environ.get("minelinks_bot", "") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
